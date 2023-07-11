@@ -17,6 +17,5 @@ if (h_or_min == "mh"):
     print(str(minute_time) + " minute(s) equal " + min_to_hr(minute_time) + "hour(s).")
 
 # task 3: count number of letters in a word
-cnt = 0
 word = input("word: ")
 print(str(word) + " has " + str(len(word)) + " letter(s).")
