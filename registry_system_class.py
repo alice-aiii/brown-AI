@@ -6,7 +6,7 @@ class Course:
         self.max = max
     def introduce(self):
         return(self.teacher + " will teach " + self.class_name + ". This class has a difficulty of " + str(self.difficulty) + " and the max number of students enrolled can be " + str(self.max) + ".")
-c1 = Course("AI", 3, "Benedict", 25)
+# c1 = Course("AI", 3, "Benedict", 25)
 # c1.introduce()
 
 class Student:
@@ -22,12 +22,12 @@ class Student:
     def drop_out(self):
         print(self.name + " has dropped out of this class.")
     def introduce_course(self):
-        print(self.course.introduce())
-        print(self.name + ": ")
+        # print(self.course.introduce())
+        print(self.name, ": ", self.course.introduce())
 
-s1 = Student("Alice", 18, 12, c1)
+# s1 = Student("Alice", 18, 12, c1)
 # s1.introduce()
 # s1.enroll()
 # s1.drop_out()
-s1.introduce_course()
+# s1.introduce_course()
 
